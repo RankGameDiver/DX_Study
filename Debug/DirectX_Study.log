@@ -1,3 +1,36 @@
-﻿  Clock.cpp
-  DirectX_Study.vcxproj -> D:\Games\DirectX_Study\DX_Study\Debug\DirectX_Study.exe
-  DirectX_Study.vcxproj -> D:\Games\DirectX_Study\DX_Study\Debug\DirectX_Study.pdb (Full PDB)
+﻿  stdafx.cpp
+d:\game\dx_study\object.h(30): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\game\dx_study\object.h(30): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\game\dx_study\object.h(32): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\game\dx_study\object.h(32): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\game\dx_study\object.h(44): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\game\dx_study\object.h(44): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Vector2d.cpp
+d:\game\dx_study\vector2d.cpp(69): warning C4244: '/=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\game\dx_study\vector2d.cpp(70): warning C4244: '/=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TimeManager.cpp
+  System.cpp
+  SoundManager.cpp
+  Player.cpp
+  Object.cpp
+  MyDevice.cpp
+  MainProc.cpp
+  Clock.cpp
+  Intro.cpp
+  InputManager.cpp
+d:\game\dx_study\inputmanager.cpp(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\game\dx_study\inputmanager.cpp(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ImageManager.cpp
+d:\game\dx_study\imagemanager.cpp(114): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\game\dx_study\imagemanager.cpp(134): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FrameWork.cpp
+  FrameSkip.cpp
+  Enemy.cpp
+  BulletList.cpp
+d:\game\dx_study\bulletlist.cpp(49): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+  Bullet.cpp
+  BaseWindow.cpp
+  코드를 생성하고 있습니다...
+d:\game\dx_study\bulletlist.cpp(62): warning C4715: 'BulletList::OnObject': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  LINK : D:\Game\DX_Study\Debug\DirectX_Study.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+LINK : fatal error LNK1104: './lib/fmodex_vc.lib' 파일을 열 수 없습니다.
