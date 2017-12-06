@@ -152,7 +152,7 @@
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="Intro.h" />
     <ClInclude Include="IScene.h" />
-    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Clock.h" />
     <ClInclude Include="MainProc.h" />
     <ClInclude Include="MyDevice.h" />
     <ClInclude Include="Object.h" />
@@ -177,7 +177,7 @@
     <ClCompile Include="ImageManager.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Intro.cpp" />
-    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Clock.cpp" />
     <ClCompile Include="MainProc.cpp" />
     <ClCompile Include="MyDevice.cpp" />
     <ClCompile Include="Object.cpp" />

@@ -26,10 +26,7 @@ bool CSystem::Initialize(void)
 
 	m_pInputManager->SetInputHandler(NULL);
 
-
-
-
-	ChangeScene(IScene::eSceneType::eSceneType_InGame);
+	ChangeScene(IScene::eSceneType::eSceneType_Clock);
 
 	return true; 
 }
@@ -112,15 +109,14 @@ void CSystem::ChangeScene(IScene::eSceneType eType)
 
 	switch (eType)
 	{
-	case IScene::eSceneType_Intro:
-		m_pCurrScene = new CIntro;
+	case IScene::eSceneType_Clock:
+		m_pCurrScene = new CClock;
 		break;
 
-	case IScene::eSceneType_Menu:
+	case IScene::eSceneType_Fish:
 		break;
 
 	case IScene::eSceneType_InGame:
-		m_pCurrScene = new CMainGame;
 		break;
 
 	case IScene::eSceneType_Exit:

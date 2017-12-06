@@ -1,6 +1,6 @@
 #pragma once
 
-class CMainGame : public IScene
+class CClock : public IScene
 {
 private:
 	CPlayer* player;
@@ -13,7 +13,7 @@ public:
 	void Render();
 
 public:
-	CMainGame();
-	~CMainGame();
+	CClock();
+	~CClock();
 };
 

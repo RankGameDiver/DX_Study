@@ -6,12 +6,11 @@ public:
 	enum eSceneType
 	{
 		eSceneType_Unknown,
-		eSceneType_Intro,
-		eSceneType_Menu,
+		eSceneType_Clock,
+		eSceneType_Fish,
 		eSceneType_InGame,
 		eSceneType_Exit,
-		eSceneType_Quit,
-		eSceneType_Count,
+		eSceneType_Quit
 	};
 
 public:

@@ -1,8 +1,8 @@
 #include "stdafx.h"
-#include "MainGame.h"
+#include "Clock.h"
 
 
-bool CMainGame::Initialize()
+bool CClock::Initialize()
 {
 	IMAGEMANAGER->ImgLoad("witcher Clock", "./Image/witcher Clock.png");
 	IMAGEMANAGER->ImgLoad("min", "./Image/min.png");
@@ -11,16 +11,20 @@ bool CMainGame::Initialize()
 	return false;
 }
 
-void CMainGame::Terminate()
+void CClock::Terminate()
 {
 }
 
-bool CMainGame::Pulse()
+bool CClock::Pulse()
 {
+	/*if (g_pKeyCodeScan(VK_SPACE))
+	{
+		g_pSystem->ChangeScene(eSceneType::eSceneType_Fish);
+	}*/
 	return false;
 }
 
-void CMainGame::Render()
+void CClock::Render()
 {
 	static float r = 0;
 	SYSTEMTIME st;
@@ -34,12 +38,12 @@ void CMainGame::Render()
 	r += 10;
 }
 
-CMainGame::CMainGame()
+CClock::CClock()
 {
 
 }
 
-CMainGame::~CMainGame()
+CClock::~CClock()
 {
 		
 }

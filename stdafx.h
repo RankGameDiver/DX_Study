@@ -64,6 +64,6 @@ extern LPDIRECT3DDEVICE9 Device;
 #include "Enemy.h"
 #include "Player.h"
 
-#include "MainGame.h"
+#include "Clock.h"
 #include "Intro.h"
 #include "System.h"
