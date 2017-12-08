@@ -36,10 +36,10 @@ CIntro::~CIntro()
 
 void CIntro::KeyboardHandler(void)
 {
-	if (g_pKeyCodeScan(VK_SPACE))
-	{
-		g_pSystem->ChangeScene(eSceneType::eSceneType_InGame);
-	}
+	//if (g_pKeyCodeScan(VK_SPACE))
+	//{
+	//	g_pSystem->ChangeScene(eSceneType::eSceneType_InGame);
+	//}
 		
 }
 

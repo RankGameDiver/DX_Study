@@ -39,4 +39,4 @@ __inline IInputHandler* CInputManager::GetInputHandler() const
 
 #define g_pInputManager	CInputManager::GetSingletone()
 
-#define g_pKeyCodeScan(vk) (g_pInputManager->m_OldKeyState[vk]&&g_pInputManager->m_CurKeyState[vk])
+#define g_pKeyCodeScan(vk) (g_pInputManager->m_OldKeyState[vk] && g_pInputManager->m_CurKeyState[vk])

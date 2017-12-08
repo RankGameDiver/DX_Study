@@ -114,9 +114,11 @@ void CSystem::ChangeScene(IScene::eSceneType eType)
 		break;
 
 	case IScene::eSceneType_Fish:
+		m_pCurrScene = new CAquarium;
 		break;
 
 	case IScene::eSceneType_InGame:
+		m_pCurrScene = new CMiniGame;
 		break;
 
 	case IScene::eSceneType_Exit:

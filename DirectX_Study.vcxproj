@@ -141,6 +141,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Aquarium.h" />
     <ClInclude Include="BaseWindow.h" />
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="BulletList.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="IScene.h" />
     <ClInclude Include="Clock.h" />
     <ClInclude Include="MainProc.h" />
+    <ClInclude Include="MiniGame.h" />
     <ClInclude Include="MyDevice.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Player.h" />
@@ -168,6 +170,7 @@
     <ClInclude Include="Vector2d.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Aquarium.cpp" />
     <ClCompile Include="BaseWindow.cpp" />
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="BulletList.cpp" />
@@ -179,6 +182,7 @@
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="Clock.cpp" />
     <ClCompile Include="MainProc.cpp" />
+    <ClCompile Include="MiniGame.cpp" />
     <ClCompile Include="MyDevice.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Player.cpp" />

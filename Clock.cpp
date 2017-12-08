@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "Clock.h"
 
-
 bool CClock::Initialize()
 {
 	IMAGEMANAGER->ImgLoad("witcher Clock", "./Image/witcher Clock.png");
@@ -17,10 +16,11 @@ void CClock::Terminate()
 
 bool CClock::Pulse()
 {
-	/*if (g_pKeyCodeScan(VK_SPACE))
+	if (GetAsyncKeyState(VK_SPACE) & 0x8000)
 	{
 		g_pSystem->ChangeScene(eSceneType::eSceneType_Fish);
-	}*/
+		Sleep(100);
+	}
 	return false;
 }
 

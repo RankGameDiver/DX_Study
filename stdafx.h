@@ -65,5 +65,7 @@ extern LPDIRECT3DDEVICE9 Device;
 #include "Player.h"
 
 #include "Clock.h"
+#include "Aquarium.h"
+#include "MiniGame.h"
 #include "Intro.h"
 #include "System.h"
